@@ -1,0 +1,67 @@
+/* Styles go here */
+
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow:hidden;
+    font-family: helvetica;
+    font-weight: 100;
+}
+
+.principal {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.menu {
+    position: absolute;
+    background: #99cc00;
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu ul li {
+    margin: 0;
+}
+
+.menu ul li a {
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: 100;
+    color: white;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #73AD21;
+    -webkit-transition:  background 0.3s ease-in-out;
+    -moz-transition:  background 0.3s ease-in-out;
+    -ms-transition:  background 0.3s ease-in-out;
+    -o-transition:  background 0.3s ease-in-out;
+    transition:  background 0.3s ease-in-out;
+}
+
+.menu ul li:hover a {
+    background: #4B9A37;
+}
+
+.contenido{
+  float: right;
+  background-color: #d9ffb3;
+  width: 75%;
+  height: 100%;
+}
+
+.registro{
+  background-color: #d9ffb3;
+  width: 50%;
+  height: 50%;
+  margin: 25vh 25vh 25vw 25vw;
+  border: 10px solid #99cc00;
+}

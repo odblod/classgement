@@ -1,0 +1,13 @@
+<div class="principal">
+  <div class="menu">
+    <ul>
+      <li><a href="#!/cursos"> Cursos</a></li>
+      <li><a href="#!/profesores"> Profesores</a></li>
+      <li><a href="#!/admin"> Admin</a></li>
+    </ul>
+  </div>
+  <div class="contenido">
+    {{vm.hola}}
+    <div ng-repeat="actual in vm.texto">{{actual.nombre}}</div>
+  </div>
+</div>
